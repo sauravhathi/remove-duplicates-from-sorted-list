@@ -10,7 +10,20 @@ Given a sorted linked list, remove all duplicates from the linked list. For exam
 
 [https://sauravhathi.github.io/remove-duplicates-from-a-sorted-linked-list/](https://sauravhathi.github.io/remove-duplicates-from-a-sorted-linked-list/)
 
+### HomePage
+![image](https://user-images.githubusercontent.com/61316762/200314937-ac022612-2d60-4c5f-8421-eaa723b85008.png)
 
+### UI
+
+![image](https://user-images.githubusercontent.com/61316762/200315026-f5fee0d0-67db-446f-a273-43b9c93b806b.png)
+
+### Output
+
+![image](https://user-images.githubusercontent.com/61316762/200315149-f3bb177d-9d22-4a38-ab8b-4d03deec5dbe.png)
+
+### When list is not sorted
+
+![image](https://user-images.githubusercontent.com/61316762/200315298-83b2d8a3-2109-4445-a9e2-cce0378fe0c7.png)
 
 ## Algorithm
 
