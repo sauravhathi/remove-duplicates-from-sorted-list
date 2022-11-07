@@ -17,9 +17,13 @@ Given a sorted linked list, remove all duplicates from the linked list. For exam
 
 ![image](https://user-images.githubusercontent.com/61316762/200315026-f5fee0d0-67db-446f-a273-43b9c93b806b.png)
 
-### Output
+### Output 1
 
 ![image](https://user-images.githubusercontent.com/61316762/200315149-f3bb177d-9d22-4a38-ab8b-4d03deec5dbe.png)
+
+### Output 2
+
+![image](https://user-images.githubusercontent.com/61316762/200315851-15e7eba4-230e-4ee8-8677-173683858cee.png)
 
 ### When list is not sorted
 
