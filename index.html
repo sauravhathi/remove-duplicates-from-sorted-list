@@ -147,6 +147,15 @@
         }
       }
 
+      // check if the list is sorted
+      Array.prototype.isSorted = function () {
+        let sort = this.slice(0);
+        sort.sort((a, b) => a - b);
+
+        return this.every((v, i) => v === sort[i]);
+
+      };
+
       // get value from input
       function getList() {
         var list = document.getElementById("list").value;
@@ -154,19 +163,8 @@
         list = list.trim().split(" ");
         // if list is empty
         list = list.filter((item) => item !== "");
-
-        // return the list
+        
         return list;
-      }
-
-      // list sorting function
-      function sortedOrNot(list) {
-        for (var i = 0; i < list.length - 1; i++) {
-          if (list[i] >= list[i + 1]) {
-            return true;
-          }
-        }
-        return false;
       }
 
       // validate input
@@ -198,7 +196,7 @@
           listError.innerHTML = "Please enter a valid list";
           resultDiv.classList.add("hidden");
         }
-        else if (sortedOrNot(list)) {
+        else if (!list.isSorted()) {
           listError.innerHTML = "List must be non-decreasing";
           resultDiv.classList.add("hidden");
         }
@@ -289,7 +287,7 @@
           listError.innerHTML = "Please enter a valid list";
           resultDiv.classList.add("hidden");
         } 
-        else if (sortedOrNot(list)) {
+        else if (!list.isSorted()) {
           listError.innerHTML = "List must be non-decreasing";
           resultDiv.classList.add("hidden");
         }
