@@ -8,7 +8,7 @@ Given a sorted linked list, remove all duplicates from the linked list. For exam
 
 ## Demo
 
-[https://sauravhathi.github.io/remove-duplicates-from-a-sorted-linked-list/](https://sauravhathi.github.io/remove-duplicates-from-a-sorted-linked-list/)
+[https://sauravhathi.github.io/remove-duplicates-from-sorted-list/](https://sauravhathi.github.io/remove-duplicates-from-sorted-list/)
 
 ### HomePage
 ![image](https://user-images.githubusercontent.com/61316762/200314937-ac022612-2d60-4c5f-8421-eaa723b85008.png)
