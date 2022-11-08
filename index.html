@@ -198,7 +198,7 @@
           listError.innerHTML = "Please enter a valid list";
           resultDiv.classList.add("hidden");
         }
-        else if (!sortedOrNot(list)) {
+        else if (sortedOrNot(list)) {
           listError.innerHTML = "List must be non-decreasing";
           resultDiv.classList.add("hidden");
         }
@@ -289,7 +289,7 @@
           listError.innerHTML = "Please enter a valid list";
           resultDiv.classList.add("hidden");
         } 
-        else if (!sortedOrNot(list)) {
+        else if (sortedOrNot(list)) {
           listError.innerHTML = "List must be non-decreasing";
           resultDiv.classList.add("hidden");
         }
