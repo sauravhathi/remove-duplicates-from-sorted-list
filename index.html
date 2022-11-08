@@ -162,11 +162,11 @@
       // list sorting function
       function sortedOrNot(list) {
         for (var i = 0; i < list.length - 1; i++) {
-          if (list[i] > list[i + 1]) {
-            return false;
+          if (list[i] >= list[i + 1]) {
+            return true;
           }
         }
-        return true;
+        return false;
       }
 
       // validate input
@@ -279,6 +279,7 @@
       function removeDuplicate() {
 
         var list = getList();
+    
         var listError = document.getElementById("list-error");
         var resultDiv = document.getElementById("result-div");
         var result = document.getElementById("result");
